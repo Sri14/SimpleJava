@@ -9,7 +9,10 @@ public class AddSum1 {
 		int c =a+b;
 		System.out.println("Value of c = " + c);
 	
-
+		
+		for(int i=0; i<10; i++ ){
+			System.out.println("Helllo world "+ i);
+		}
 	}
 
 }
