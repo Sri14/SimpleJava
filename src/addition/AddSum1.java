@@ -1,8 +1,11 @@
 package addition;
 
+import org.testng.annotations.Test;
+
 public class AddSum1 {
 
-	public static void main(String[] args) {
+	@Test
+	public void sumWithForLoop(){
 		
 		int a =30;
 		int b =50;

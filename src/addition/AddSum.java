@@ -1,8 +1,11 @@
 package addition;
 
-public class AddSum {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class AddSum {
+	
+	@Test
+	public void basicAddition(){
 		int a =10;
 		int b=20;
 		
