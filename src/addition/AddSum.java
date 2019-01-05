@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class AddSum {
 	
-	@Test
+	@Test (priority=1)
 	public void basicAddition(){
 		int a =10;
 		int b=20;
@@ -13,7 +13,7 @@ public class AddSum {
 		System.out.println("The value of c = "+c);
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void sumWithForLoop(){
 		
 		int a =30;
