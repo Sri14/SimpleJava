@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37" started-at="2019-01-05T20:48:31Z" finished-at="2019-01-05T20:48:31Z">
+  <suite name="Default suite" duration-ms="41" started-at="2019-01-05T21:20:30Z" finished-at="2019-01-05T21:20:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37" started-at="2019-01-05T20:48:31Z" finished-at="2019-01-05T20:48:31Z">
-      <class name="addition.AddSum1">
-        <test-method status="PASS" signature="sumWithForLoop()[pri:0, instance:addition.AddSum1@4439f31e]" name="sumWithForLoop" duration-ms="11" started-at="2019-01-05T20:48:31Z" finished-at="2019-01-05T20:48:31Z">
+    <test name="Default test" duration-ms="41" started-at="2019-01-05T21:20:30Z" finished-at="2019-01-05T21:20:30Z">
+      <class name="addition.AddSum">
+        <test-method status="PASS" signature="basicAddition()[pri:0, instance:addition.AddSum@4439f31e]" name="basicAddition" duration-ms="10" started-at="2019-01-05T21:20:30Z" finished-at="2019-01-05T21:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAddition -->
+        <test-method status="PASS" signature="sumWithForLoop()[pri:0, instance:addition.AddSum@4439f31e]" name="sumWithForLoop" duration-ms="2" started-at="2019-01-05T21:20:30Z" finished-at="2019-01-05T21:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumWithForLoop -->
-      </class> <!-- addition.AddSum1 -->
+      </class> <!-- addition.AddSum -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
